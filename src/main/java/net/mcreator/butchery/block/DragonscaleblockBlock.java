@@ -1,0 +1,44 @@
+package net.mcreator.butchery.block;
+
+import net.minecraft.core.Direction;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.StateDefinition.Builder;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.Property;
+
+public class DragonscaleblockBlock extends Block {
+   public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
+
+   public DragonscaleblockBlock(Properties properties) {
+      super(properties.strength(1.0F, 10.0F).instrument(NoteBlockInstrument.BASEDRUM));
+      this.registerDefaultState((BlockState)((BlockState)this.stateDefinition.any()).setValue(FACING, Direction.NORTH));
+   }
+
+   public int getLightBlock(BlockState state) {
+      return 15;
+   }
+
+   protected void createBlockStateDefinition(Builder<Block, BlockState> builder) {
+      super.createBlockStateDefinition(builder);
+      builder.add(new Property[]{FACING});
+   }
+
+   public BlockState getStateForPlacement(BlockPlaceContext context) {
+      return (BlockState)super.getStateForPlacement(context).setValue(FACING, context.getHorizontalDirection().getOpposite());
+   }
+
+   public BlockState rotate(BlockState state, Rotation rot) {
+      return (BlockState)state.setValue(FACING, rot.rotate((Direction)state.getValue(FACING)));
+   }
+
+   public BlockState mirror(BlockState state, Mirror mirrorIn) {
+      return state.rotate(mirrorIn.getRotation((Direction)state.getValue(FACING)));
+   }
+}

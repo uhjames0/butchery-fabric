@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "butchery:item/playercorpse_base",
+    "model": {
+      "type": "butchery:playercorpse"
+    }
+  }
+}

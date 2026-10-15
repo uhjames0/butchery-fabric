@@ -1,0 +1,15 @@
+package net.mcreator.butchery.shim;
+
+import java.util.function.Supplier;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
+
+@Environment(value=EnvType.CLIENT)
+public class ModelLayerRegistry {
+    public static void register(ModelLayerLocation location, Supplier<LayerDefinition> supplier) {
+        net.fabricmc.fabric.api.client.rendering.v1.ModelLayerRegistry.registerModelLayer((ModelLayerLocation)location, supplier::get);
+    }
+}
+

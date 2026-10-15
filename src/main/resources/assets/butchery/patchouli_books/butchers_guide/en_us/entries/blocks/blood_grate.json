@@ -1,0 +1,21 @@
+{
+      "name": "Blood Grate",
+    "icon": "butchery:blood_grate",
+    "category": "butchery:blocks",
+    "read_by_default": true,
+    "sortnum": 6,
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "butchery:blood_grate",
+            "link_recipe": true,
+            "title" : "Blood Grate",
+            "text": "The blood grate is a block that can collect blood from bleeding carcasses. This block will need to be placed directly below the hanging carcass."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "butchery:bloodgraterecipe",
+            "text": "Blood from other mods that are supported can be obtain from the blood grate. Do do this you simply need a bucket or a bottle, whilst holding either of these hold Shift and right click the air. This will change the type of blood received."
+        }
+    ]
+}

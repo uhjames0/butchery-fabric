@@ -1,0 +1,9 @@
+{
+  "parent": "butchery:custom/chicken_head",
+  "textures": {
+    "all": "butchery:block/cold_chicken",
+    "particle": "minecraft:block/nether_wart_block",
+    "0": "butchery:block/cold_chicken"
+  },
+  "render_type": "solid"
+}

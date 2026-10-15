@@ -1,0 +1,1 @@
+{"parent":"butchery:custom/hanging_sheep_carcass","textures":{"all":"butchery:block/light_gray_sheep","particle":"minecraft:block/nether_wart_block","sheep_bone_texture":"butchery:block/sheep_skeleton","inner_blood":"butchery:block/inner_blood","sheep_texture":"butchery:block/light_gray_sheep"},"render_type":"cutout"}

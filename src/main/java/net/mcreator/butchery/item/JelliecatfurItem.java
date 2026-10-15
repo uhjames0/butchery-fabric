@@ -1,0 +1,11 @@
+package net.mcreator.butchery.item;
+
+import net.minecraft.world.item.Item;
+
+public class JelliecatfurItem
+extends Item {
+    public JelliecatfurItem(Item.Properties properties) {
+        super(properties);
+    }
+}
+

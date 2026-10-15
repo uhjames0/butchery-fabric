@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "firstjoin_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

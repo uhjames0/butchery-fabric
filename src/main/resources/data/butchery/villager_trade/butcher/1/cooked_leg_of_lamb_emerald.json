@@ -1,0 +1,11 @@
+{
+  "wants": {
+    "id": "butchery:cooked_leg_of_lamb"
+  },
+  "gives": {
+    "id": "minecraft:emerald"
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

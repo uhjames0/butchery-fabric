@@ -1,0 +1,82 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "butchery:sponge/wetness",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_0"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_1"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_2"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_3"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_4"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_5"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_6"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_7"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_8"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/sponge_9"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "butchery:item/sponge"
+    }
+  }
+}

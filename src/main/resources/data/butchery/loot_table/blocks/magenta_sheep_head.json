@@ -1,0 +1,1 @@
+{"type":"minecraft:block","random_sequence":"butchery:blocks/magenta_sheep_head","pools":[{"rolls":1.0,"conditions":[{"condition":"minecraft:survives_explosion"}],"entries":[{"type":"minecraft:item","name":"butchery:magenta_sheep_head"}]}]}

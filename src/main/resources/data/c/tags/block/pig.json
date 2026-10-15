@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "butchery:pig_carcass",
+    "butchery:drained_pig_carcass",
+    "butchery:cold_pig_carcass",
+    "butchery:drained_cold_pig_carcass",
+    "butchery:warm_pig_carcass",
+    "butchery:drained_warm_pig_carcass"
+  ]
+}

@@ -1,0 +1,1 @@
+{"parent":"butchery:custom/sheep_head_mount","textures":{"all":"butchery:block/green_sheep","particle":"butchery:block/green_sheep","0":"minecraft:block/spruce_planks","1":"minecraft:block/dark_oak_planks","2":"minecraft:block/gold_block","3":"butchery:block/green_sheep"},"render_type":"cutout"}

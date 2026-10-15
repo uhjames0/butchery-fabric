@@ -1,0 +1,11 @@
+package net.mcreator.butchery.item;
+
+import net.minecraft.world.item.Item;
+
+public class RedcatfurItem
+extends Item {
+    public RedcatfurItem(Item.Properties properties) {
+        super(properties);
+    }
+}
+

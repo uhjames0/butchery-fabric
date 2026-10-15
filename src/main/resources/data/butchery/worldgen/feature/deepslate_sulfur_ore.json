@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:ore",
+  "discard_chance_on_air_exposure": 0,
+  "size": 7,
+  "targets": [
+    {
+      "state": "butchery:deepslate_sulfur_ore",
+      "target": {
+        "predicate_type": "minecraft:blockstate_match",
+        "block_state": "minecraft:deepslate"
+      }
+    }
+  ]
+}

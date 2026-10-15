@@ -1,0 +1,14 @@
+{
+  "type": "butchery:taxidermy",
+  "ingredients": [
+    "minecraft:wheat",
+    "butchery:sheep_head",
+    "butchery:empty_head_mount"
+  ],
+  "outputs": [
+    {
+      "id": "butchery:sheep_head_mount",
+      "count": 1
+    }
+  ]
+}

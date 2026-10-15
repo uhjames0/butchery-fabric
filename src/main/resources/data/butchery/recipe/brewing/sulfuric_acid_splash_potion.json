@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "minecraft:splash_potion",
+    "potion_contents": {
+      "potions": "minecraft:water"
+    }
+  },
+  "reagent": {
+    "item": "#c:sulfur"
+  },
+  "output": {
+    "id": "butchery:bottle_of_sulfuric_acid"
+  }
+}

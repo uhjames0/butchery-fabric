@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "net.mcreator.butchery.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ResultSlotMixin",
+    "EntityTickMixin",
+    "LivingEntityEffectMixin",
+    "ServerPlayerDimensionMixin",
+    "AbstractFurnaceBlockEntityMixin",
+    "ServerPlayerGameModeDestroyBlockMixin",
+    "ItemEntityPlayerTouchMixin",
+    "MobGoalSelectorAccessor",
+    "BlockItemPlaceMixin",
+    "PlayerAdvancementsAwardMixin",
+    "PlayerAdvancementsAccessor"
+  ],
+  "client": [
+    "ScreenTrackerMixin",
+    "RangeSelectItemModelPropertiesMixin",
+    "SpecialModelRenderersMixin",
+    "EquipmentLayerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

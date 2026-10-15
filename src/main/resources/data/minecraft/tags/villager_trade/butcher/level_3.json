@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "butchery:butcher/3/iron_cleaver_emerald",
+    "butchery:butcher/3/iron_skinning_knife_emerald",
+    "butchery:butcher/3/cow_skin_emerald",
+    "butchery:butcher/3/ocelot_skin_emerald",
+    "butchery:butcher/3/creeper_skin_emerald"
+  ]
+}

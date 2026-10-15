@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "butchery:blood",
+    "butchery:infected_blood"
+  ]
+}

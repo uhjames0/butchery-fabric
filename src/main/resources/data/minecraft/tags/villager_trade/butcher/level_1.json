@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "butchery:butcher/1/sponge_emerald",
+    "butchery:butcher/1/blood_grate_emerald",
+    "butchery:butcher/1/hook_emerald",
+    "butchery:butcher/1/emerald_raw_tbone_steak",
+    "butchery:butcher/1/emerald_raw_salmon",
+    "butchery:butcher/1/emerald_heart",
+    "butchery:butcher/1/cooked_leg_of_lamb_emerald",
+    "butchery:butcher/1/cooked_mule_steak_emerald"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "butchery:wishbone"
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 5
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

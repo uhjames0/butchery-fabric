@@ -1,0 +1,70 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.18-SNAPSHOT'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
+    mavenCentral()
+    // JEI API (compile-only; the mod works without JEI installed)
+    maven { url "https://maven.blamejared.com/" }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+
+
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+    // Fabric API
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    // JEI API (compile-only: JEI integration activates only when the user installs JEI)
+    compileOnly "mezz.jei:jei-26.3-common-api:31.12.0.66"
+    compileOnly "mezz.jei:jei-26.3-fabric-api:31.12.0.66"
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+    it.options.encoding = "UTF-8"
+}
+
+java {
+    withSourcesJar()
+
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+    def projectName = project.base.archivesName.get()
+    inputs.property "projectName", projectName
+
+    from("LICENSE_butchery-fabric-26.3") {
+        rename { "${it}_$projectName" }
+    }
+}
+
+publishing {
+    publications {
+        create("mavenJava", MavenPublication) {
+            from components.java
+        }
+    }
+}
+tasks.register('printCp') { doLast { println sourceSets.main.compileClasspath.asPath } }

@@ -1,0 +1,12 @@
+package net.mcreator.butchery.item;
+
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.Item;
+
+public class CookedpolarbearmeatItem
+extends Item {
+    public CookedpolarbearmeatItem(Item.Properties properties) {
+        super(properties.food(new FoodProperties.Builder().nutrition(16).saturationModifier(0.3f).build()));
+    }
+}
+

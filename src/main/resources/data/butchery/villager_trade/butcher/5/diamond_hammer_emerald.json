@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "butchery:diamond_hammer"
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 26
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

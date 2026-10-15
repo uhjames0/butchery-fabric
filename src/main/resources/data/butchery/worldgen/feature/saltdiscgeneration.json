@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:disk",
+  "radius": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 2,
+    "max_inclusive": 3
+  },
+  "half_height": 1,
+  "target": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:dirt",
+      "minecraft:clay"
+    ]
+  },
+  "state_provider": {
+    "id": "butchery:salt_block"
+  }
+}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"butchery:block/purple_sheep_head_mount"},"facing=east":{"model":"butchery:block/purple_sheep_head_mount","y":90},"facing=south":{"model":"butchery:block/purple_sheep_head_mount","y":180},"facing=west":{"model":"butchery:block/purple_sheep_head_mount","y":270}}}

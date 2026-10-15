@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "butchery:raw_silverfish_chunks/multiple",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "butchery:item/raw_silverfish_chunks_0"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "butchery:item/raw_silverfish_chunks"
+    }
+  }
+}

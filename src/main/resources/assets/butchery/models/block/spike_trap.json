@@ -1,0 +1,9 @@
+{
+  "parent": "butchery:custom/reg_spike_trap",
+  "textures": {
+    "all": "butchery:block/reg_guardian_spike",
+    "particle": "butchery:block/reg_guardian_spike",
+    "0": "butchery:block/reg_guardian_spike"
+  },
+  "render_type": "cutout"
+}

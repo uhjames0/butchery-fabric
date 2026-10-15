@@ -1,0 +1,14 @@
+{
+  "type": "butchery:taxidermy",
+  "ingredients": [
+    "minecraft:wheat",
+    "butchery:warm_pig_head",
+    "butchery:empty_head_mount"
+  ],
+  "outputs": [
+    {
+      "id": "butchery:warm_pig_head_mount",
+      "count": 1
+    }
+  ]
+}

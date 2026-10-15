@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "butchery",
+  "version": "${version}",
+  "name": "Butchery",
+  "description": "Realistically butcher everything in Minecraft! Fabric port of Butchery 5.3.1. Credits: Original NeoForge mod by Jmods (made with MCreator). Fabric 26.3 port.",
+  "authors": [
+    "Jmods"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/4jyFpT8jEk"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/butchery/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.butchery.ButcheryMod"
+    ],
+    "client": [
+      "net.mcreator.butchery.ButcheryModClient"
+    ],
+    "jei_mod_plugin": [
+      "net.mcreator.butchery.jei.ButcheryJeiPlugin"
+    ]
+  },
+  "mixins": [
+    "butchery.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "jei": "*"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#c:bow",
+      "required": false
+    },
+    "minecraft:bow",
+    {
+      "id": "#forge:bow",
+      "required": false
+    },
+    {
+      "id": "#c:crossbow",
+      "required": false
+    },
+    "minecraft:crossbow",
+    {
+      "id": "#forge:crossbow",
+      "required": false
+    }
+  ]
+}

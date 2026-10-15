@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "butchery:wishbone"
+  },
+  "reagent": {
+    "item": "minecraft:nether_star"
+  },
+  "output": {
+    "id": "butchery:magic_wishbone"
+  }
+}
