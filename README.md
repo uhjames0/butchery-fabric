@@ -184,3 +184,55 @@ The original Butchery mod remains the work of its original creator. Credit and a
 </p>
 
 </div>
+
+---
+
+## ❤️ Support Butchery: Fabric
+
+Enjoying the mod? You can help support its continued development.
+
+Your support helps me dedicate more time to improving the Fabric port, fixing bugs, testing releases, and adding future improvements.
+
+**Donations are completely optional.** Butchery: Fabric remains free to download and play. Thank you for playing, reporting bugs, sharing feedback, or supporting the project in any way!
+
+### 💎 Cryptocurrency Donations
+
+Choose your preferred cryptocurrency below. Each address is labeled with its supported network.
+
+#### ₿ Bitcoin (BTC)
+**Network:** Bitcoin Mainnet · Native SegWit
+
+`bc1qzjuy22w9n8fxljyj2j26d2a2f6cmhp6qdy4gzf`
+
+#### ♦ Ethereum (ETH)
+**Network:** Ethereum Mainnet
+
+`0x968C80ba90E48e4bCC0C45b801967F5F27769b28`
+
+#### ☀️ Solana (SOL)
+**Network:** Solana Mainnet
+
+`Ft5f9XDN6MRwVfazC4GzQpAjzVUdV7ZrmfjfBsyitKR8`
+
+#### 🔵 USD Coin (USDC)
+**Network:** Solana Mainnet · Native USDC (SPL)
+
+`Ft5f9XDN6MRwVfazC4GzQpAjzVUdV7ZrmfjfBsyitKR8`
+
+#### 🟢 Tether (USDT)
+**Network:** TRON Mainnet · TRC-20
+
+`TFkD4R1R6844NxHtEJiHgyQQHFGd7DPv5K`
+
+### ⚠️ Before You Donate
+
+- **Check the network carefully.** Send each cryptocurrency only through the network specified above.
+- **For USDC,** make sure your wallet supports native USDC on Solana.
+- **Verify the address before confirming.** Cryptocurrency transactions are generally irreversible, and transfers using an unsupported network or token may be lost.
+- **Never feel obligated to donate.** Playing the mod and being part of the community are already appreciated.
+
+---
+
+**❤️ Thank you for supporting Butchery: Fabric!**
+
+Every bit of community support helps me keep working on the project.
