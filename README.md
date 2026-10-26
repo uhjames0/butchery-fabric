@@ -103,10 +103,8 @@ These issues have not yet been confirmed fixed. Please keep them in mind when te
 
 | Minecraft version | Loader | Status |
 |:---|:---|:---|
-| **26.3** | Fabric | 🧪 Current target |
-| **1.21.1** | Fabric | 🛠️ Planned, not yet released |
-
-The current development target is Minecraft 26.3 with Fabric. A Fabric port for Minecraft 1.21.1 is planned but is not available yet.
+| **26.3** | Fabric | Released ✅️ |
+| **1.21.1** | Fabric | Released ✅️ |
 
 The aim is to support the latest stable Minecraft version selected for this project, alongside Minecraft 1.21.1 when that port is ready. Other Minecraft versions and mod loaders are not currently planned.
 
