@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔪 Butchery: Fabric
+# 🔪 Butchery: For Fabric
 
 ### 🥩 The Butchery experience, brought to Fabric.
 
