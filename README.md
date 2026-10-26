@@ -4,6 +4,7 @@
 
 ### 🥩 The Butchery experience, brought to Fabric.
 
+**NOTE SOURCE CODE HERE IS OUTDATED FOR NEWER SOURCE CODES PLEASE REFER TO RELEASES**
 An unofficial, permission-based Fabric port of **Butchery**, featuring additional animal variants, matching carcasses, heads, head mounts, skins, and fixes developed during the port.
 
 <p>
@@ -93,11 +94,6 @@ You do not need JEI to run the mod. Install it if you prefer a visual recipe gui
 ## ⚠️ Known Issues
 
 This is an early beta, and some features still need work.
-
-- 🪦 **Taxidermy:** An infinite head-mount bug is currently present.
-- 🩸 **Blood fluid system:** Placing blood buckets can cause incorrect fluid behavior.
-
-These issues have not yet been confirmed fixed. Please keep them in mind when testing the current release.
 
 ## 📦 Supported Versions
 
